@@ -1,0 +1,33 @@
+<html>
+  <head>
+  </head>
+    <body>
+       <script type="text/javascript">
+                function okno_zamknij_Szmyt()
+                    {window.close()}
+
+                function WinOpen_Szmyt_1()
+                    {window.open("glodny_kot.gif","okienko_1","toolbar=no,directories=no,menubar=no,height=380,width=200,top=700,left=125");}
+					
+
+                function WinOpen_Szmyt_2()
+                    {window.open("kot_pije.gif","okienko_2","toolbar=no,directories=no,menubar=no,height=380,width=200,top=700,left=400");}
+
+                function WinOpen_Szmyt_3()
+                    {window.open("kot_hamak.gif","okienko_3","toolbar=no,directories=no,menubar=no,height=380,width=200,top=700,left=675");}
+                    
+                function WinOpen_Szmyt_4()
+                    {window.open("kot_spi.gif","okienko_4","toolbar=no,directories=no,menubar=no,height=380,width=200,top=700,left=950");}
+					
+                    
+                document.write("Wykonał: Mateusz Szmyt, nunmer z dziennika 23, czyli układ [(23) mod 4=1] układ 1".fontcolor("red").fontsize(7).bold()+"<br><br><center>");
+       </script>
+
+        <input type="button" value="grafika1" onclick="WinOpen_Szmyt_1(' ')">
+        <input type="button" value="grafika2" onclick="WinOpen_Szmyt_2(' ')">
+        <input type="button" value="grafika3" onclick="WinOpen_Szmyt_3(' ')">
+        <input type="button" value="grafika4" onclick="WinOpen_Szmyt_4(' ')"><br><br><br>
+
+        <input type="button" value="Zamknij okno" onclick="okno_zamknij_Szmyt(' ')">
+    </body>
+</html>
